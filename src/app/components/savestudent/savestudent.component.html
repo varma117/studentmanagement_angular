@@ -1,0 +1,24 @@
+<H2 style="text-align: center;">Enter Student Details</H2>
+
+  <div style=align-content:center; class="col-3">
+   
+    <label class="form-label">firstname</label>
+    <input type="text"  [(ngModel)] = studentDetails.firstName class="form-control"  placeholder="firstname">
+ 
+    <label class="form-label">lastname</label>
+    <input type="text" [(ngModel)] = studentDetails.lastName class="form-control"  placeholder="lastname">
+ 
+    <label class="form-label">classname</label>
+    <input type= "text" [(ngModel)] = studentDetails.className class="form-control"  placeholder="classname">
+
+    <label  class="form-label">subjectname</label>
+    <input type="text" [(ngModel)] = studentDetails.subject  class="form-control"  placeholder="subjectname">
+    <br>
+    <button type="button" (click)="save()" class="btn btn-success" >Save</button>
+    <button type="button" (click)="getStudents()" class="btn btn-success" >Getstudents</button>
+
+</div>
+
+
+
+
